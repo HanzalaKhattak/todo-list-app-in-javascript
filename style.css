@@ -41,7 +41,7 @@ body{
     outline: none;
 }
 
-.todo-container > .inputs > .btn{
+.todo-container > .inputs > button{
     padding: 9px 15px;
     border: none;
     border-radius: 15px;
@@ -50,5 +50,10 @@ body{
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 }
+
+.remove-btn:hover {
+    background-color: aliceblue;
+}
+
 
 
