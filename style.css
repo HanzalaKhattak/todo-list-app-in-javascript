@@ -41,7 +41,7 @@ body{
     outline: none;
 }
 
-.todo-container > .inputs > button{
+.todo-container > .inputs > .btn{
     padding: 9px 15px;
     border: none;
     border-radius: 15px;
@@ -52,7 +52,16 @@ body{
 }
 
 .remove-btn:hover {
-    background-color: aliceblue;
+    background-color: rgb(129, 171, 208);
+}
+
+.remove-btn{
+    padding: 9px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: crimson;
+    cursor: pointer;
+    color: white;
 }
 
 li {
@@ -62,6 +71,7 @@ li {
     margin-bottom: 5px;
     margin-top: 5px;
     list-style-type: none;
+    font-family: sans-serif;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
