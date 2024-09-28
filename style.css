@@ -10,25 +10,45 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-color: bisque;
 }
+
 .todo-container{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     width: 400px;
     border: 1px solid black;
-
-}
-
-.todo-container > h1{
+    padding: 10px;
+    border-radius: 10px;
     text-align: center;
+    background-color: white;
 }
 
-.todo-container > input{
+/* .todo-container > h1{
+    text-align: center;
+} */
+
+.todo-container > .inputs > #input{
     width: 60%;
     border-color: crimson;
-    /* font-family: sans-serif; */
+    font-family: sans-serif;
     color: crimson;
+    padding: 9px;
+    border-radius: 15px;
+    outline: none;
 }
+
+.todo-container > .inputs > .btn{
+    padding: 9px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
 
